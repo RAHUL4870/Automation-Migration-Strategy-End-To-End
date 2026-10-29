@@ -1,0 +1,183 @@
+{
+  "feature_columns": [
+    "Industry",
+    "Product_Lifecycle_Stage",
+    "Current_Automation_Level",
+    "Monthly_Production_Volume",
+    "Demand_Growth_Pct",
+    "Order_Backlog_Units",
+    "Labor_Cost_Monthly_USD_k",
+    "Machine_Cost_Estimate_USD_k",
+    "Capital_Available_USD_k",
+    "Defect_Rate_Pct",
+    "Cycle_Time_Min",
+    "ROI_Pct",
+    "Payback_Period_Years",
+    "Product_Variety_SKUs",
+    "Employee_Turnover_Pct",
+    "Annual_Maintenance_Cost_USD_k",
+    "Machine_Utilization_Pct",
+    "Overtime_Hours_Monthly",
+    "Safety_Incidents_Annual"
+  ],
+  "categorical_features": [
+    "Industry",
+    "Product_Lifecycle_Stage",
+    "Current_Automation_Level"
+  ],
+  "numerical_features": [
+    "Monthly_Production_Volume",
+    "Demand_Growth_Pct",
+    "Order_Backlog_Units",
+    "Labor_Cost_Monthly_USD_k",
+    "Machine_Cost_Estimate_USD_k",
+    "Capital_Available_USD_k",
+    "Defect_Rate_Pct",
+    "Cycle_Time_Min",
+    "ROI_Pct",
+    "Payback_Period_Years",
+    "Product_Variety_SKUs",
+    "Employee_Turnover_Pct",
+    "Annual_Maintenance_Cost_USD_k",
+    "Machine_Utilization_Pct",
+    "Overtime_Hours_Monthly",
+    "Safety_Incidents_Annual"
+  ],
+  "regression_targets": [
+    "Risk_Score",
+    "Time_to_Next_Migration_Months",
+    "Customer_Demand_Forecast_Pct",
+    "Productivity_Improvement_Pct",
+    "Labor_Cost_Savings_Pct",
+    "Expected_Annual_Profit_Increase_Pct"
+  ],
+  "classification_target": "Next_Recommended_Phase",
+  "categorical_unique_values": {
+    "Industry": [
+      "Automotive",
+      "Electronics",
+      "Food",
+      "Pharma",
+      "Textile"
+    ],
+    "Product_Lifecycle_Stage": [
+      "Decline",
+      "Growth",
+      "Introduction",
+      "Maturity"
+    ],
+    "Current_Automation_Level": [
+      "Continue Manual",
+      "Flexible Automation",
+      "Full Automation",
+      "Semi-Automation"
+    ]
+  },
+  "classification_classes": [
+    "Move to Flexible Automation",
+    "Move to Full Automation",
+    "Move to Semi-Automation",
+    "Stay at Continue Manual",
+    "Stay at Flexible Automation",
+    "Stay at Full Automation",
+    "Stay at Semi-Automation"
+  ],
+  "feature_ranges": {
+    "Monthly_Production_Volume": {
+      "min": 800.0,
+      "max": 15533.0,
+      "median": 6002.5,
+      "mean": 6868.578166666666
+    },
+    "Demand_Growth_Pct": {
+      "min": -8.0,
+      "max": 41.77450794223291,
+      "median": 12.3,
+      "mean": 12.369683756618528
+    },
+    "Order_Backlog_Units": {
+      "min": 72.0,
+      "max": 4050.0,
+      "median": 1260.5,
+      "mean": 1532.0512079420691
+    },
+    "Labor_Cost_Monthly_USD_k": {
+      "min": 5.0,
+      "max": 109.5777110898151,
+      "median": 49.92,
+      "mean": 50.042324136998
+    },
+    "Machine_Cost_Estimate_USD_k": {
+      "min": 20.0,
+      "max": 789.362256731816,
+      "median": 317.01,
+      "mean": 319.5240685472765
+    },
+    "Capital_Available_USD_k": {
+      "min": 10.0,
+      "max": 784.0654492752981,
+      "median": 254.51999999999998,
+      "mean": 265.60161665700474
+    },
+    "Defect_Rate_Pct": {
+      "min": 0.1,
+      "max": 9.809999999999999,
+      "median": 3.3,
+      "mean": 3.800051666666666
+    },
+    "Cycle_Time_Min": {
+      "min": 1.0,
+      "max": 38.31789046076714,
+      "median": 14.934999999999999,
+      "mean": 15.092030520614358
+    },
+    "ROI_Pct": {
+      "min": -19.83,
+      "max": 100.0,
+      "median": 21.89,
+      "mean": 33.14257333333333
+    },
+    "Payback_Period_Years": {
+      "min": 0.2,
+      "max": 15.0,
+      "median": 4.595,
+      "mean": 7.443375
+    },
+    "Product_Variety_SKUs": {
+      "min": 2.0,
+      "max": 134.0,
+      "median": 42.0,
+      "mean": 49.51433333333333
+    },
+    "Employee_Turnover_Pct": {
+      "min": 1.0,
+      "max": 37.42337412030328,
+      "median": 14.888302529397116,
+      "mean": 15.060609407066222
+    },
+    "Annual_Maintenance_Cost_USD_k": {
+      "min": 1.0,
+      "max": 60.991249999999994,
+      "median": 21.494999999999997,
+      "mean": 23.7744675
+    },
+    "Machine_Utilization_Pct": {
+      "min": 25.693876210776303,
+      "max": 99.0,
+      "median": 69.795,
+      "mean": 69.47850377305309
+    },
+    "Overtime_Hours_Monthly": {
+      "min": 0.3,
+      "max": 133.0125,
+      "median": 42.25,
+      "mean": 49.294279166666676
+    },
+    "Safety_Incidents_Annual": {
+      "min": 0.0,
+      "max": 7.0,
+      "median": 3.0,
+      "mean": 2.9678333333333335
+    }
+  }
+}

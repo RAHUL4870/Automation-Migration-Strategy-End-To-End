@@ -1,0 +1,235 @@
+{
+  "regression_benchmarks": {
+    "Risk_Score": {
+      "Linear Regression": {
+        "R2_Score": 0.622,
+        "MAE": 7.6541,
+        "RMSE": 9.5851
+      },
+      "Decision Tree": {
+        "R2_Score": 0.2768,
+        "MAE": 10.5034,
+        "RMSE": 13.258
+      },
+      "Polynomial Regression": {
+        "R2_Score": 0.6509,
+        "MAE": 7.3238,
+        "RMSE": 9.2106
+      },
+      "Support Vector Machines": {
+        "R2_Score": 0.6275,
+        "MAE": 7.6055,
+        "RMSE": 9.5147
+      },
+      "KNN": {
+        "R2_Score": 0.4656,
+        "MAE": 9.065,
+        "RMSE": 11.3963
+      }
+    },
+    "Time_to_Next_Migration_Months": {
+      "Linear Regression": {
+        "R2_Score": 0.5087,
+        "MAE": 10.3029,
+        "RMSE": 12.8356
+      },
+      "Decision Tree": {
+        "R2_Score": 0.2184,
+        "MAE": 11.8183,
+        "RMSE": 16.1898
+      },
+      "Polynomial Regression": {
+        "R2_Score": 0.5786,
+        "MAE": 9.4943,
+        "RMSE": 11.8875
+      },
+      "Support Vector Machines": {
+        "R2_Score": 0.5066,
+        "MAE": 10.2024,
+        "RMSE": 12.863
+      },
+      "KNN": {
+        "R2_Score": 0.3099,
+        "MAE": 12.2386,
+        "RMSE": 15.212
+      }
+    },
+    "Customer_Demand_Forecast_Pct": {
+      "Linear Regression": {
+        "R2_Score": 0.8081,
+        "MAE": 3.6047,
+        "RMSE": 4.7043
+      },
+      "Decision Tree": {
+        "R2_Score": 0.6019,
+        "MAE": 5.3554,
+        "RMSE": 6.776
+      },
+      "Polynomial Regression": {
+        "R2_Score": 0.7993,
+        "MAE": 3.7421,
+        "RMSE": 4.8117
+      },
+      "Support Vector Machines": {
+        "R2_Score": 0.7826,
+        "MAE": 3.9257,
+        "RMSE": 5.0072
+      },
+      "KNN": {
+        "R2_Score": 0.5971,
+        "MAE": 5.4233,
+        "RMSE": 6.8173
+      }
+    },
+    "Productivity_Improvement_Pct": {
+      "Linear Regression": {
+        "R2_Score": 0.7981,
+        "MAE": 6.4123,
+        "RMSE": 8.2849
+      },
+      "Decision Tree": {
+        "R2_Score": 0.7675,
+        "MAE": 5.4094,
+        "RMSE": 8.89
+      },
+      "Polynomial Regression": {
+        "R2_Score": 0.8718,
+        "MAE": 4.7483,
+        "RMSE": 6.6007
+      },
+      "Support Vector Machines": {
+        "R2_Score": 0.851,
+        "MAE": 4.969,
+        "RMSE": 7.1174
+      },
+      "KNN": {
+        "R2_Score": 0.7125,
+        "MAE": 6.895,
+        "RMSE": 9.886
+      }
+    },
+    "Labor_Cost_Savings_Pct": {
+      "Linear Regression": {
+        "R2_Score": 0.8611,
+        "MAE": 5.5918,
+        "RMSE": 7.3434
+      },
+      "Decision Tree": {
+        "R2_Score": 0.8603,
+        "MAE": 4.3884,
+        "RMSE": 7.3656
+      },
+      "Polynomial Regression": {
+        "R2_Score": 0.9311,
+        "MAE": 3.6001,
+        "RMSE": 5.1731
+      },
+      "Support Vector Machines": {
+        "R2_Score": 0.9174,
+        "MAE": 3.7076,
+        "RMSE": 5.6622
+      },
+      "KNN": {
+        "R2_Score": 0.792,
+        "MAE": 6.2243,
+        "RMSE": 8.9859
+      }
+    },
+    "Expected_Annual_Profit_Increase_Pct": {
+      "Linear Regression": {
+        "R2_Score": 0.7526,
+        "MAE": 5.9357,
+        "RMSE": 7.5442
+      },
+      "Decision Tree": {
+        "R2_Score": 0.6249,
+        "MAE": 7.1532,
+        "RMSE": 9.2896
+      },
+      "Polynomial Regression": {
+        "R2_Score": 0.8086,
+        "MAE": 5.1948,
+        "RMSE": 6.6363
+      },
+      "Support Vector Machines": {
+        "R2_Score": 0.7937,
+        "MAE": 5.4055,
+        "RMSE": 6.8901
+      },
+      "KNN": {
+        "R2_Score": 0.6865,
+        "MAE": 6.5516,
+        "RMSE": 8.4925
+      }
+    }
+  },
+  "classification_benchmarks": {
+    "Logistic Regression": {
+      "Accuracy": 0.9217,
+      "Weighted_F1": 0.9207,
+      "Precision": 0.9208,
+      "Recall": 0.9217
+    },
+    "KNN": {
+      "Accuracy": 0.7642,
+      "Weighted_F1": 0.7507,
+      "Precision": 0.7619,
+      "Recall": 0.7642
+    },
+    "SVM": {
+      "Accuracy": 0.93,
+      "Weighted_F1": 0.9287,
+      "Precision": 0.9293,
+      "Recall": 0.93
+    },
+    "Naive Bayes": {
+      "Accuracy": 0.8708,
+      "Weighted_F1": 0.8677,
+      "Precision": 0.874,
+      "Recall": 0.8708
+    },
+    "Decision Tree": {
+      "Accuracy": 0.8917,
+      "Weighted_F1": 0.8909,
+      "Precision": 0.8909,
+      "Recall": 0.8917
+    }
+  },
+  "best_selected_models": {
+    "Risk_Score": {
+      "model": "Polynomial Regression",
+      "metric": "R2_Score",
+      "score": 0.6509
+    },
+    "Time_to_Next_Migration_Months": {
+      "model": "Polynomial Regression",
+      "metric": "R2_Score",
+      "score": 0.5786
+    },
+    "Customer_Demand_Forecast_Pct": {
+      "model": "Linear Regression",
+      "metric": "R2_Score",
+      "score": 0.8081
+    },
+    "Productivity_Improvement_Pct": {
+      "model": "Polynomial Regression",
+      "metric": "R2_Score",
+      "score": 0.8718
+    },
+    "Labor_Cost_Savings_Pct": {
+      "model": "Polynomial Regression",
+      "metric": "R2_Score",
+      "score": 0.9311
+    },
+    "Expected_Annual_Profit_Increase_Pct": {
+      "model": "Polynomial Regression",
+      "metric": "R2_Score",
+      "score": 0.8086
+    },
+    "Next_Recommended_Phase": {
+      "model": "SVM",
+      "metric": "Accuracy",
+      "score": 0.93
+    }
+  }
+}

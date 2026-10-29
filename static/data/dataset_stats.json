@@ -1,0 +1,1648 @@
+{
+  "total_records": 6000,
+  "recommended_moves_count": 2634,
+  "recommended_moves_pct": 43.9,
+  "avg_risk_score": 29.3,
+  "avg_labor_savings": 21.0,
+  "avg_productivity": 17.9,
+  "avg_profit": 14.7,
+  "industry_distribution": {
+    "Automotive": 1473,
+    "Electronics": 1463,
+    "Food": 1194,
+    "Textile": 938,
+    "Pharma": 932
+  },
+  "industry_readiness": {
+    "industries": [
+      "Automotive",
+      "Electronics",
+      "Food",
+      "Pharma",
+      "Textile"
+    ],
+    "recommended": [
+      669,
+      639,
+      549,
+      378,
+      399
+    ],
+    "stay": [
+      804,
+      824,
+      645,
+      554,
+      539
+    ]
+  },
+  "risk_distribution": {
+    "low_pct": 27.0,
+    "med_pct": 47.8,
+    "high_pct": 23.7,
+    "crit_pct": 1.5,
+    "avg_risk": 29.3
+  },
+  "scatter_sample": [
+    {
+      "ROI_Pct": 15.76,
+      "Risk_Score": 28.6,
+      "Labor_Cost_Savings_Pct": 6.36,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 10537
+    },
+    {
+      "ROI_Pct": 74.46,
+      "Risk_Score": 41.6,
+      "Labor_Cost_Savings_Pct": 29.92,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 2805
+    },
+    {
+      "ROI_Pct": 21.58,
+      "Risk_Score": 7.9,
+      "Labor_Cost_Savings_Pct": 44.66,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 9073
+    },
+    {
+      "ROI_Pct": 16.56,
+      "Risk_Score": 47.0,
+      "Labor_Cost_Savings_Pct": 24.42,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 7471
+    },
+    {
+      "ROI_Pct": -9.21,
+      "Risk_Score": 41.9,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 12971
+    },
+    {
+      "ROI_Pct": 6.57,
+      "Risk_Score": 52.9,
+      "Labor_Cost_Savings_Pct": 1.36,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 4054
+    },
+    {
+      "ROI_Pct": 49.3,
+      "Risk_Score": 28.1,
+      "Labor_Cost_Savings_Pct": 19.05,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 5325
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 13.2,
+      "Labor_Cost_Savings_Pct": 56.24,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Full Automation",
+      "Monthly_Production_Volume": 14013
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 6.0,
+      "Labor_Cost_Savings_Pct": 56.7,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 9298
+    },
+    {
+      "ROI_Pct": -7.23,
+      "Risk_Score": 29.7,
+      "Labor_Cost_Savings_Pct": 0.42,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 7147
+    },
+    {
+      "ROI_Pct": -8.12,
+      "Risk_Score": 45.7,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 17327
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 28.4,
+      "Labor_Cost_Savings_Pct": 36.77,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Move to Flexible Automation",
+      "Monthly_Production_Volume": 12916
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 33.1,
+      "Labor_Cost_Savings_Pct": 34.0,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 13022
+    },
+    {
+      "ROI_Pct": -8.86,
+      "Risk_Score": 48.3,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 7693
+    },
+    {
+      "ROI_Pct": 47.37,
+      "Risk_Score": 37.9,
+      "Labor_Cost_Savings_Pct": 19.96,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 4048
+    },
+    {
+      "ROI_Pct": 30.34,
+      "Risk_Score": 0.0,
+      "Labor_Cost_Savings_Pct": 51.46,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 10450
+    },
+    {
+      "ROI_Pct": 66.93,
+      "Risk_Score": 48.4,
+      "Labor_Cost_Savings_Pct": 21.26,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 5891
+    },
+    {
+      "ROI_Pct": 17.4,
+      "Risk_Score": 12.9,
+      "Labor_Cost_Savings_Pct": 11.79,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 4556
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 39.3,
+      "Labor_Cost_Savings_Pct": 59.25,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Move to Full Automation",
+      "Monthly_Production_Volume": 1962
+    },
+    {
+      "ROI_Pct": 7.33,
+      "Risk_Score": 8.5,
+      "Labor_Cost_Savings_Pct": 57.36,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 6798
+    },
+    {
+      "ROI_Pct": -9.82,
+      "Risk_Score": 37.6,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 5704
+    },
+    {
+      "ROI_Pct": 32.72,
+      "Risk_Score": 21.6,
+      "Labor_Cost_Savings_Pct": 18.69,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 7189
+    },
+    {
+      "ROI_Pct": -7.49,
+      "Risk_Score": 30.3,
+      "Labor_Cost_Savings_Pct": 0.16,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 6867
+    },
+    {
+      "ROI_Pct": 48.2,
+      "Risk_Score": 17.4,
+      "Labor_Cost_Savings_Pct": 11.49,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 3651
+    },
+    {
+      "ROI_Pct": -9.51,
+      "Risk_Score": 53.4,
+      "Labor_Cost_Savings_Pct": 0.22,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 11404
+    },
+    {
+      "ROI_Pct": 24.03,
+      "Risk_Score": 18.8,
+      "Labor_Cost_Savings_Pct": 30.21,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 3122
+    },
+    {
+      "ROI_Pct": 33.1,
+      "Risk_Score": 39.6,
+      "Labor_Cost_Savings_Pct": 21.44,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 6123
+    },
+    {
+      "ROI_Pct": 14.51,
+      "Risk_Score": 14.0,
+      "Labor_Cost_Savings_Pct": 11.54,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 1876
+    },
+    {
+      "ROI_Pct": -9.53,
+      "Risk_Score": 40.4,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 10205
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 22.6,
+      "Labor_Cost_Savings_Pct": 26.04,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Flexible Automation",
+      "Monthly_Production_Volume": 3430
+    },
+    {
+      "ROI_Pct": 9.49,
+      "Risk_Score": 31.8,
+      "Labor_Cost_Savings_Pct": 26.89,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 6274
+    },
+    {
+      "ROI_Pct": 54.23,
+      "Risk_Score": 20.6,
+      "Labor_Cost_Savings_Pct": 38.54,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Move to Flexible Automation",
+      "Monthly_Production_Volume": 1714
+    },
+    {
+      "ROI_Pct": -12.45,
+      "Risk_Score": 43.2,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 3093
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 1.9,
+      "Labor_Cost_Savings_Pct": 29.22,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Flexible Automation",
+      "Monthly_Production_Volume": 6701
+    },
+    {
+      "ROI_Pct": -3.69,
+      "Risk_Score": 43.5,
+      "Labor_Cost_Savings_Pct": 0.9,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 8845
+    },
+    {
+      "ROI_Pct": -4.42,
+      "Risk_Score": 38.1,
+      "Labor_Cost_Savings_Pct": 1.66,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 5100
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 3.8,
+      "Labor_Cost_Savings_Pct": 55.08,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 3959
+    },
+    {
+      "ROI_Pct": 16.34,
+      "Risk_Score": 12.0,
+      "Labor_Cost_Savings_Pct": 14.53,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 7178
+    },
+    {
+      "ROI_Pct": 93.81,
+      "Risk_Score": 35.5,
+      "Labor_Cost_Savings_Pct": 20.77,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 5375
+    },
+    {
+      "ROI_Pct": -5.37,
+      "Risk_Score": 46.4,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 6158
+    },
+    {
+      "ROI_Pct": -2.98,
+      "Risk_Score": 49.8,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 4329
+    },
+    {
+      "ROI_Pct": 43.83,
+      "Risk_Score": 14.1,
+      "Labor_Cost_Savings_Pct": 23.18,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 3741
+    },
+    {
+      "ROI_Pct": -7.91,
+      "Risk_Score": 50.1,
+      "Labor_Cost_Savings_Pct": 0.49,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 6011
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 17.1,
+      "Labor_Cost_Savings_Pct": 42.22,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Flexible Automation",
+      "Monthly_Production_Volume": 11144
+    },
+    {
+      "ROI_Pct": 35.81,
+      "Risk_Score": 27.4,
+      "Labor_Cost_Savings_Pct": 22.48,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 3684
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 32.3,
+      "Labor_Cost_Savings_Pct": 35.49,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Flexible Automation",
+      "Monthly_Production_Volume": 4050
+    },
+    {
+      "ROI_Pct": 10.76,
+      "Risk_Score": 21.3,
+      "Labor_Cost_Savings_Pct": 17.47,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 5899
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 23.9,
+      "Labor_Cost_Savings_Pct": 53.14,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 5916
+    },
+    {
+      "ROI_Pct": 14.63,
+      "Risk_Score": 31.8,
+      "Labor_Cost_Savings_Pct": 18.0,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 13511
+    },
+    {
+      "ROI_Pct": -8.07,
+      "Risk_Score": 44.1,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 5074
+    },
+    {
+      "ROI_Pct": 18.72,
+      "Risk_Score": 37.9,
+      "Labor_Cost_Savings_Pct": 14.19,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 6095
+    },
+    {
+      "ROI_Pct": -13.92,
+      "Risk_Score": 44.1,
+      "Labor_Cost_Savings_Pct": 0.49,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 5019
+    },
+    {
+      "ROI_Pct": -4.38,
+      "Risk_Score": 25.6,
+      "Labor_Cost_Savings_Pct": 0.2,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 2720
+    },
+    {
+      "ROI_Pct": -7.52,
+      "Risk_Score": 39.4,
+      "Labor_Cost_Savings_Pct": 1.82,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 4701
+    },
+    {
+      "ROI_Pct": 82.85,
+      "Risk_Score": 18.1,
+      "Labor_Cost_Savings_Pct": 27.48,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Flexible Automation",
+      "Monthly_Production_Volume": 9570
+    },
+    {
+      "ROI_Pct": 0.34,
+      "Risk_Score": 45.2,
+      "Labor_Cost_Savings_Pct": 0.91,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 8979
+    },
+    {
+      "ROI_Pct": -2.83,
+      "Risk_Score": 44.5,
+      "Labor_Cost_Savings_Pct": 0.7,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 2043
+    },
+    {
+      "ROI_Pct": -11.0,
+      "Risk_Score": 58.1,
+      "Labor_Cost_Savings_Pct": 0.4,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 4858
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 29.4,
+      "Labor_Cost_Savings_Pct": 19.56,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 5690
+    },
+    {
+      "ROI_Pct": -3.86,
+      "Risk_Score": 49.6,
+      "Labor_Cost_Savings_Pct": 0.37,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 6374
+    },
+    {
+      "ROI_Pct": -7.04,
+      "Risk_Score": 38.8,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 4080
+    },
+    {
+      "ROI_Pct": 13.87,
+      "Risk_Score": 30.9,
+      "Labor_Cost_Savings_Pct": 17.17,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 5618
+    },
+    {
+      "ROI_Pct": 72.7,
+      "Risk_Score": 9.1,
+      "Labor_Cost_Savings_Pct": 54.7,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Full Automation",
+      "Monthly_Production_Volume": 8978
+    },
+    {
+      "ROI_Pct": -8.17,
+      "Risk_Score": 36.8,
+      "Labor_Cost_Savings_Pct": 0.38,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 3791
+    },
+    {
+      "ROI_Pct": 10.8,
+      "Risk_Score": 35.7,
+      "Labor_Cost_Savings_Pct": 17.62,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 5886
+    },
+    {
+      "ROI_Pct": 29.78,
+      "Risk_Score": 28.6,
+      "Labor_Cost_Savings_Pct": 20.77,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 6104
+    },
+    {
+      "ROI_Pct": -4.21,
+      "Risk_Score": 62.0,
+      "Labor_Cost_Savings_Pct": 0.35,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 6190
+    },
+    {
+      "ROI_Pct": 47.66,
+      "Risk_Score": 1.4,
+      "Labor_Cost_Savings_Pct": 30.27,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Flexible Automation",
+      "Monthly_Production_Volume": 6001
+    },
+    {
+      "ROI_Pct": -7.45,
+      "Risk_Score": 33.8,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 10462
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 12.8,
+      "Labor_Cost_Savings_Pct": 44.25,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 3227
+    },
+    {
+      "ROI_Pct": -8.24,
+      "Risk_Score": 29.2,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 3126
+    },
+    {
+      "ROI_Pct": -8.81,
+      "Risk_Score": 43.7,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 3869
+    },
+    {
+      "ROI_Pct": -2.38,
+      "Risk_Score": 9.1,
+      "Labor_Cost_Savings_Pct": 18.06,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 2995
+    },
+    {
+      "ROI_Pct": 10.24,
+      "Risk_Score": 45.0,
+      "Labor_Cost_Savings_Pct": 0.51,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 2283
+    },
+    {
+      "ROI_Pct": -3.65,
+      "Risk_Score": 39.0,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 4483
+    },
+    {
+      "ROI_Pct": -9.4,
+      "Risk_Score": 32.5,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 3815
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 21.1,
+      "Labor_Cost_Savings_Pct": 20.68,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 10959
+    },
+    {
+      "ROI_Pct": 27.41,
+      "Risk_Score": 24.1,
+      "Labor_Cost_Savings_Pct": 17.98,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 13702
+    },
+    {
+      "ROI_Pct": 26.98,
+      "Risk_Score": 9.2,
+      "Labor_Cost_Savings_Pct": 26.95,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 13636
+    },
+    {
+      "ROI_Pct": 26.88,
+      "Risk_Score": 48.3,
+      "Labor_Cost_Savings_Pct": 19.05,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 1943
+    },
+    {
+      "ROI_Pct": 27.97,
+      "Risk_Score": 38.8,
+      "Labor_Cost_Savings_Pct": 17.48,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 1778
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 50.4,
+      "Labor_Cost_Savings_Pct": 14.55,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 4766
+    },
+    {
+      "ROI_Pct": 38.48,
+      "Risk_Score": 33.3,
+      "Labor_Cost_Savings_Pct": 21.48,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 3309
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 27.4,
+      "Labor_Cost_Savings_Pct": 36.13,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Flexible Automation",
+      "Monthly_Production_Volume": 7537
+    },
+    {
+      "ROI_Pct": -8.19,
+      "Risk_Score": 41.1,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 2187
+    },
+    {
+      "ROI_Pct": -8.63,
+      "Risk_Score": 34.8,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 3813
+    },
+    {
+      "ROI_Pct": 45.34,
+      "Risk_Score": 40.0,
+      "Labor_Cost_Savings_Pct": 21.19,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 5482
+    },
+    {
+      "ROI_Pct": -14.96,
+      "Risk_Score": 38.9,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 11461
+    },
+    {
+      "ROI_Pct": -0.73,
+      "Risk_Score": 37.5,
+      "Labor_Cost_Savings_Pct": 15.91,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 5460
+    },
+    {
+      "ROI_Pct": -10.7,
+      "Risk_Score": 53.8,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 4854
+    },
+    {
+      "ROI_Pct": -5.08,
+      "Risk_Score": 41.2,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 10427
+    },
+    {
+      "ROI_Pct": 50.83,
+      "Risk_Score": 24.5,
+      "Labor_Cost_Savings_Pct": 28.55,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Move to Flexible Automation",
+      "Monthly_Production_Volume": 7921
+    },
+    {
+      "ROI_Pct": 30.43,
+      "Risk_Score": 0.0,
+      "Labor_Cost_Savings_Pct": 40.72,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Flexible Automation",
+      "Monthly_Production_Volume": 7368
+    },
+    {
+      "ROI_Pct": -0.41,
+      "Risk_Score": 18.8,
+      "Labor_Cost_Savings_Pct": 15.03,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 28359
+    },
+    {
+      "ROI_Pct": 36.94,
+      "Risk_Score": 12.3,
+      "Labor_Cost_Savings_Pct": 31.13,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Move to Flexible Automation",
+      "Monthly_Production_Volume": 5296
+    },
+    {
+      "ROI_Pct": 15.85,
+      "Risk_Score": 27.9,
+      "Labor_Cost_Savings_Pct": 11.71,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 6042
+    },
+    {
+      "ROI_Pct": 57.64,
+      "Risk_Score": 13.0,
+      "Labor_Cost_Savings_Pct": 18.58,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 4435
+    },
+    {
+      "ROI_Pct": -3.71,
+      "Risk_Score": 40.9,
+      "Labor_Cost_Savings_Pct": 0.96,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 2835
+    },
+    {
+      "ROI_Pct": 4.56,
+      "Risk_Score": 48.6,
+      "Labor_Cost_Savings_Pct": 24.14,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 2079
+    },
+    {
+      "ROI_Pct": 4.41,
+      "Risk_Score": 16.5,
+      "Labor_Cost_Savings_Pct": 27.3,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Flexible Automation",
+      "Monthly_Production_Volume": 6498
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 13.6,
+      "Labor_Cost_Savings_Pct": 53.14,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Full Automation",
+      "Monthly_Production_Volume": 16104
+    },
+    {
+      "ROI_Pct": 38.24,
+      "Risk_Score": 37.8,
+      "Labor_Cost_Savings_Pct": 18.79,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 3832
+    },
+    {
+      "ROI_Pct": 3.43,
+      "Risk_Score": 33.0,
+      "Labor_Cost_Savings_Pct": 16.46,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 13874
+    },
+    {
+      "ROI_Pct": -8.81,
+      "Risk_Score": 39.7,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 6004
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 0.0,
+      "Labor_Cost_Savings_Pct": 49.78,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Full Automation",
+      "Monthly_Production_Volume": 17204
+    },
+    {
+      "ROI_Pct": -9.03,
+      "Risk_Score": 53.2,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 3970
+    },
+    {
+      "ROI_Pct": 13.85,
+      "Risk_Score": 20.0,
+      "Labor_Cost_Savings_Pct": 20.23,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 2455
+    },
+    {
+      "ROI_Pct": 41.0,
+      "Risk_Score": 26.8,
+      "Labor_Cost_Savings_Pct": 25.25,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Flexible Automation",
+      "Monthly_Production_Volume": 5738
+    },
+    {
+      "ROI_Pct": -1.35,
+      "Risk_Score": 29.5,
+      "Labor_Cost_Savings_Pct": 0.98,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 4354
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 0.8,
+      "Labor_Cost_Savings_Pct": 54.62,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 7581
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 11.1,
+      "Labor_Cost_Savings_Pct": 66.12,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Full Automation",
+      "Monthly_Production_Volume": 6408
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 32.2,
+      "Labor_Cost_Savings_Pct": 23.67,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 5108
+    },
+    {
+      "ROI_Pct": 23.17,
+      "Risk_Score": 27.7,
+      "Labor_Cost_Savings_Pct": 31.06,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 8274
+    },
+    {
+      "ROI_Pct": -2.7,
+      "Risk_Score": 35.8,
+      "Labor_Cost_Savings_Pct": 14.75,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 3493
+    },
+    {
+      "ROI_Pct": -0.43,
+      "Risk_Score": 49.2,
+      "Labor_Cost_Savings_Pct": 0.49,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 7172
+    },
+    {
+      "ROI_Pct": -7.59,
+      "Risk_Score": 46.6,
+      "Labor_Cost_Savings_Pct": 0.29,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 10388
+    },
+    {
+      "ROI_Pct": 53.1,
+      "Risk_Score": 28.4,
+      "Labor_Cost_Savings_Pct": 18.37,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 7866
+    },
+    {
+      "ROI_Pct": 1.6,
+      "Risk_Score": 44.7,
+      "Labor_Cost_Savings_Pct": 23.43,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 4594
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 0.0,
+      "Labor_Cost_Savings_Pct": 57.08,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 22849
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 19.5,
+      "Labor_Cost_Savings_Pct": 59.86,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 6101
+    },
+    {
+      "ROI_Pct": 50.38,
+      "Risk_Score": 16.6,
+      "Labor_Cost_Savings_Pct": 33.78,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Move to Flexible Automation",
+      "Monthly_Production_Volume": 4150
+    },
+    {
+      "ROI_Pct": 19.53,
+      "Risk_Score": 8.0,
+      "Labor_Cost_Savings_Pct": 15.68,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 12681
+    },
+    {
+      "ROI_Pct": 4.45,
+      "Risk_Score": 22.2,
+      "Labor_Cost_Savings_Pct": 17.02,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 5254
+    },
+    {
+      "ROI_Pct": 41.69,
+      "Risk_Score": 0.0,
+      "Labor_Cost_Savings_Pct": 53.24,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Full Automation",
+      "Monthly_Production_Volume": 13158
+    },
+    {
+      "ROI_Pct": -6.87,
+      "Risk_Score": 46.7,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 5819
+    },
+    {
+      "ROI_Pct": 42.33,
+      "Risk_Score": 55.9,
+      "Labor_Cost_Savings_Pct": 27.54,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 10076
+    },
+    {
+      "ROI_Pct": 20.41,
+      "Risk_Score": 27.3,
+      "Labor_Cost_Savings_Pct": 24.41,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 11524
+    },
+    {
+      "ROI_Pct": -3.88,
+      "Risk_Score": 64.4,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 8575
+    },
+    {
+      "ROI_Pct": -5.61,
+      "Risk_Score": 43.3,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 3584
+    },
+    {
+      "ROI_Pct": -13.96,
+      "Risk_Score": 37.0,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 6362
+    },
+    {
+      "ROI_Pct": -10.98,
+      "Risk_Score": 46.7,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 4547
+    },
+    {
+      "ROI_Pct": 51.41,
+      "Risk_Score": 4.3,
+      "Labor_Cost_Savings_Pct": 50.88,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Full Automation",
+      "Monthly_Production_Volume": 16671
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 31.8,
+      "Labor_Cost_Savings_Pct": 50.0,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 3599
+    },
+    {
+      "ROI_Pct": 62.94,
+      "Risk_Score": 7.7,
+      "Labor_Cost_Savings_Pct": 51.87,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 14482
+    },
+    {
+      "ROI_Pct": -3.85,
+      "Risk_Score": 43.1,
+      "Labor_Cost_Savings_Pct": 0.15,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 6820
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 18.7,
+      "Labor_Cost_Savings_Pct": 21.19,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 3617
+    },
+    {
+      "ROI_Pct": 54.36,
+      "Risk_Score": 19.5,
+      "Labor_Cost_Savings_Pct": 26.29,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 7606
+    },
+    {
+      "ROI_Pct": -9.14,
+      "Risk_Score": 34.7,
+      "Labor_Cost_Savings_Pct": 0.45,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 7492
+    },
+    {
+      "ROI_Pct": -8.61,
+      "Risk_Score": 37.8,
+      "Labor_Cost_Savings_Pct": 0.07,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 5979
+    },
+    {
+      "ROI_Pct": -14.87,
+      "Risk_Score": 36.9,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 4858
+    },
+    {
+      "ROI_Pct": 12.8,
+      "Risk_Score": 31.2,
+      "Labor_Cost_Savings_Pct": 12.22,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 6623
+    },
+    {
+      "ROI_Pct": 77.92,
+      "Risk_Score": 26.4,
+      "Labor_Cost_Savings_Pct": 19.48,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 3543
+    },
+    {
+      "ROI_Pct": -6.88,
+      "Risk_Score": 42.3,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 4307
+    },
+    {
+      "ROI_Pct": -10.01,
+      "Risk_Score": 42.5,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 4775
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 0.0,
+      "Labor_Cost_Savings_Pct": 50.75,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Full Automation",
+      "Monthly_Production_Volume": 3630
+    },
+    {
+      "ROI_Pct": 7.67,
+      "Risk_Score": 36.2,
+      "Labor_Cost_Savings_Pct": 21.67,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 1878
+    },
+    {
+      "ROI_Pct": 66.18,
+      "Risk_Score": 27.8,
+      "Labor_Cost_Savings_Pct": 14.68,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 10348
+    },
+    {
+      "ROI_Pct": 34.08,
+      "Risk_Score": 9.2,
+      "Labor_Cost_Savings_Pct": 49.16,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 6127
+    },
+    {
+      "ROI_Pct": 14.73,
+      "Risk_Score": 36.2,
+      "Labor_Cost_Savings_Pct": 16.06,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 7724
+    },
+    {
+      "ROI_Pct": 27.73,
+      "Risk_Score": 30.9,
+      "Labor_Cost_Savings_Pct": 22.63,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 3773
+    },
+    {
+      "ROI_Pct": -1.42,
+      "Risk_Score": 23.7,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 3375
+    },
+    {
+      "ROI_Pct": 60.07,
+      "Risk_Score": 17.3,
+      "Labor_Cost_Savings_Pct": 20.39,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 13355
+    },
+    {
+      "ROI_Pct": 23.91,
+      "Risk_Score": 32.2,
+      "Labor_Cost_Savings_Pct": 15.61,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 7205
+    },
+    {
+      "ROI_Pct": 17.44,
+      "Risk_Score": 54.2,
+      "Labor_Cost_Savings_Pct": 22.95,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 2400
+    },
+    {
+      "ROI_Pct": 34.11,
+      "Risk_Score": 14.0,
+      "Labor_Cost_Savings_Pct": 30.61,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Move to Flexible Automation",
+      "Monthly_Production_Volume": 5331
+    },
+    {
+      "ROI_Pct": 72.68,
+      "Risk_Score": 27.1,
+      "Labor_Cost_Savings_Pct": 65.6,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Full Automation",
+      "Monthly_Production_Volume": 8518
+    },
+    {
+      "ROI_Pct": -10.28,
+      "Risk_Score": 24.9,
+      "Labor_Cost_Savings_Pct": 0.45,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 3207
+    },
+    {
+      "ROI_Pct": -8.99,
+      "Risk_Score": 42.7,
+      "Labor_Cost_Savings_Pct": 0.21,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 4528
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 4.5,
+      "Labor_Cost_Savings_Pct": 64.29,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Full Automation",
+      "Monthly_Production_Volume": 7625
+    },
+    {
+      "ROI_Pct": -13.73,
+      "Risk_Score": 44.1,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 10737
+    },
+    {
+      "ROI_Pct": 30.57,
+      "Risk_Score": 0.0,
+      "Labor_Cost_Savings_Pct": 38.31,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Flexible Automation",
+      "Monthly_Production_Volume": 7533
+    },
+    {
+      "ROI_Pct": -10.13,
+      "Risk_Score": 45.4,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 5366
+    },
+    {
+      "ROI_Pct": 59.4,
+      "Risk_Score": 29.0,
+      "Labor_Cost_Savings_Pct": 20.86,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 4555
+    },
+    {
+      "ROI_Pct": -6.63,
+      "Risk_Score": 42.2,
+      "Labor_Cost_Savings_Pct": 0.58,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 2265
+    },
+    {
+      "ROI_Pct": 21.51,
+      "Risk_Score": 17.3,
+      "Labor_Cost_Savings_Pct": 52.79,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 10062
+    },
+    {
+      "ROI_Pct": 60.81,
+      "Risk_Score": 10.7,
+      "Labor_Cost_Savings_Pct": 34.86,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Move to Flexible Automation",
+      "Monthly_Production_Volume": 3570
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 18.5,
+      "Labor_Cost_Savings_Pct": 26.25,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 4591
+    },
+    {
+      "ROI_Pct": -1.91,
+      "Risk_Score": 44.4,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 5602
+    },
+    {
+      "ROI_Pct": 80.1,
+      "Risk_Score": 4.5,
+      "Labor_Cost_Savings_Pct": 50.56,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 17246
+    },
+    {
+      "ROI_Pct": 29.72,
+      "Risk_Score": 32.5,
+      "Labor_Cost_Savings_Pct": 15.99,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 4157
+    },
+    {
+      "ROI_Pct": -4.26,
+      "Risk_Score": 34.1,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 2575
+    },
+    {
+      "ROI_Pct": 3.71,
+      "Risk_Score": 47.1,
+      "Labor_Cost_Savings_Pct": 17.59,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 5618
+    },
+    {
+      "ROI_Pct": -3.65,
+      "Risk_Score": 46.0,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 6352
+    },
+    {
+      "ROI_Pct": 58.37,
+      "Risk_Score": 0.0,
+      "Labor_Cost_Savings_Pct": 56.68,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 9945
+    },
+    {
+      "ROI_Pct": 69.35,
+      "Risk_Score": 37.3,
+      "Labor_Cost_Savings_Pct": 19.27,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 6229
+    },
+    {
+      "ROI_Pct": 21.79,
+      "Risk_Score": 18.1,
+      "Labor_Cost_Savings_Pct": 14.18,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 3661
+    },
+    {
+      "ROI_Pct": 65.84,
+      "Risk_Score": 0.0,
+      "Labor_Cost_Savings_Pct": 58.7,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Full Automation",
+      "Monthly_Production_Volume": 15746
+    },
+    {
+      "ROI_Pct": 80.11,
+      "Risk_Score": 17.1,
+      "Labor_Cost_Savings_Pct": 58.59,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Move to Full Automation",
+      "Monthly_Production_Volume": 11393
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 30.0,
+      "Labor_Cost_Savings_Pct": 56.43,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Full Automation",
+      "Monthly_Production_Volume": 12341
+    },
+    {
+      "ROI_Pct": -4.59,
+      "Risk_Score": 17.7,
+      "Labor_Cost_Savings_Pct": 2.08,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 3631
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 28.9,
+      "Labor_Cost_Savings_Pct": 30.84,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Move to Flexible Automation",
+      "Monthly_Production_Volume": 10744
+    },
+    {
+      "ROI_Pct": -7.15,
+      "Risk_Score": 33.8,
+      "Labor_Cost_Savings_Pct": 1.29,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 5832
+    },
+    {
+      "ROI_Pct": 28.23,
+      "Risk_Score": 33.9,
+      "Labor_Cost_Savings_Pct": 14.4,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 4215
+    },
+    {
+      "ROI_Pct": 44.14,
+      "Risk_Score": 15.8,
+      "Labor_Cost_Savings_Pct": 59.05,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Full Automation",
+      "Monthly_Production_Volume": 5632
+    },
+    {
+      "ROI_Pct": -16.28,
+      "Risk_Score": 45.5,
+      "Labor_Cost_Savings_Pct": 0.56,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 4630
+    },
+    {
+      "ROI_Pct": 12.49,
+      "Risk_Score": 0.0,
+      "Labor_Cost_Savings_Pct": 18.8,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 12104
+    },
+    {
+      "ROI_Pct": 19.35,
+      "Risk_Score": 14.7,
+      "Labor_Cost_Savings_Pct": 22.94,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 2795
+    },
+    {
+      "ROI_Pct": -7.06,
+      "Risk_Score": 61.6,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 903
+    },
+    {
+      "ROI_Pct": -5.69,
+      "Risk_Score": 33.3,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 1639
+    },
+    {
+      "ROI_Pct": -5.68,
+      "Risk_Score": 44.2,
+      "Labor_Cost_Savings_Pct": 0.26,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 3959
+    },
+    {
+      "ROI_Pct": -3.53,
+      "Risk_Score": 25.8,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Food",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 3647
+    },
+    {
+      "ROI_Pct": 49.03,
+      "Risk_Score": 17.8,
+      "Labor_Cost_Savings_Pct": 28.8,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 9246
+    },
+    {
+      "ROI_Pct": 76.09,
+      "Risk_Score": 29.4,
+      "Labor_Cost_Savings_Pct": 19.1,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 2920
+    },
+    {
+      "ROI_Pct": 58.14,
+      "Risk_Score": 31.7,
+      "Labor_Cost_Savings_Pct": 26.56,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 9190
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 20.7,
+      "Labor_Cost_Savings_Pct": 39.62,
+      "Industry": "Pharma",
+      "Next_Recommended_Phase": "Stay at Flexible Automation",
+      "Monthly_Production_Volume": 5863
+    },
+    {
+      "ROI_Pct": 11.64,
+      "Risk_Score": 28.3,
+      "Labor_Cost_Savings_Pct": 8.77,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 5351
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 45.7,
+      "Labor_Cost_Savings_Pct": 22.5,
+      "Industry": "Electronics",
+      "Next_Recommended_Phase": "Stay at Semi-Automation",
+      "Monthly_Production_Volume": 5986
+    },
+    {
+      "ROI_Pct": 32.47,
+      "Risk_Score": 39.1,
+      "Labor_Cost_Savings_Pct": 20.15,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Move to Semi-Automation",
+      "Monthly_Production_Volume": 6474
+    },
+    {
+      "ROI_Pct": 100.0,
+      "Risk_Score": 25.2,
+      "Labor_Cost_Savings_Pct": 30.79,
+      "Industry": "Automotive",
+      "Next_Recommended_Phase": "Stay at Flexible Automation",
+      "Monthly_Production_Volume": 15723
+    },
+    {
+      "ROI_Pct": -9.15,
+      "Risk_Score": 41.6,
+      "Labor_Cost_Savings_Pct": 0.0,
+      "Industry": "Textile",
+      "Next_Recommended_Phase": "Stay at Continue Manual",
+      "Monthly_Production_Volume": 4589
+    }
+  ]
+}

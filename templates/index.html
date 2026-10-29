@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise Automation Migration Strategy & Decision Intelligence Platform</title>
+    <meta name="description" content="AI-Powered Decision Intelligence Platform to evaluate enterprise automation feasibility, forecast ROI, assess operational risks, and recommend optimized migration phases.">
+    
+    <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+    <div class="app-layout">
+
+        <!-- =================================================================
+             SIDEBAR (Dark Navy)
+             ================================================================= -->
+        <aside class="sidebar">
+            <!-- Brand Logo -->
+            <div class="sidebar-brand">
+                <div class="brand-logo-icon">
+                    <i class="fa-solid fa-industry"></i>
+                </div>
+                <div class="brand-info">
+                    <h1 class="brand-name">Automation Migration<br>Strategy Maker</h1>
+                    <p class="brand-tagline">Smarter Decisions. Higher Efficiency.</p>
+                </div>
+            </div>
+
+            <!-- Navigation Links -->
+            <nav class="sidebar-nav">
+                <a href="#section-overview" class="nav-item active" id="nav-overview">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Overview</span>
+                </a>
+                <a href="#section-prediction-engine" class="nav-item" id="nav-predictor">
+                    <i class="fa-solid fa-microchip"></i>
+                    <span>ML Prediction Engine</span>
+                </a>
+                <a href="#section-dataset-analytics" class="nav-item" id="nav-analytics">
+                    <i class="fa-solid fa-chart-column"></i>
+                    <span>Dataset Analytics</span>
+                </a>
+                <a href="#section-feature-importance" class="nav-item" id="nav-features">
+                    <i class="fa-solid fa-ranking-star"></i>
+                    <span>Feature Importance</span>
+                </a>
+                <a href="#section-model-benchmarks" class="nav-item" id="nav-benchmarks">
+                    <i class="fa-solid fa-trophy"></i>
+                    <span>Model Benchmarks</span>
+                </a>
+            </nav>
+
+            <!-- Bottom "Our Goal" Box -->
+            <div class="sidebar-goal-box">
+                <div class="goal-header">
+                    <i class="fa-solid fa-bullseye"></i>
+                    <span>Our Goal</span>
+                </div>
+                <p class="goal-text">
+                    Automate the right processes at the right time — for higher efficiency, lower cost and sustainable growth.
+                </p>
+            </div>
+        </aside>
+
+        <!-- =================================================================
+             MAIN DASHBOARD CONTENT
+             ================================================================= -->
+        <main class="main-content">
+
+            <!-- Top Header -->
+            <header class="dashboard-header" id="section-overview">
+                <div class="header-titles">
+                    <h2 class="page-title">Automation Migration Strategy Dashboard</h2>
+                    <p class="page-subtitle">Data-driven recommendations on when to automate, the expected benefits, and the risk score powered by 7 trained ML models.</p>
+                </div>
+                <div class="header-meta">
+                    <div class="last-updated">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>Dataset: 6,000 Enterprise Records</span>
+                    </div>
+                    <div class="status-badge-top">
+                        <span class="pulse-indicator"></span>
+                        <span>7 ML Models Active</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Top KPI Metrics Cards (4 Real Dataset Cards) -->
+            <section class="kpi-metrics-row">
+                <!-- KPI 1 -->
+                <div class="kpi-card">
+                    <div class="kpi-icon-circle bg-blue-light">
+                        <i class="fa-solid fa-database text-blue"></i>
+                    </div>
+                    <div class="kpi-body">
+                        <span class="kpi-title">Total Enterprises Analysed</span>
+                        <div class="kpi-main-number">6,000</div>
+                        <span class="kpi-subtext">Across 5 Industry Sectors</span>
+                    </div>
+                </div>
+
+                <!-- KPI 2 -->
+                <div class="kpi-card">
+                    <div class="kpi-icon-circle bg-green-light">
+                        <i class="fa-solid fa-circle-check text-green"></i>
+                    </div>
+                    <div class="kpi-body">
+                        <span class="kpi-title">Recommended for Automation</span>
+                        <div class="kpi-main-number">2,634</div>
+                        <span class="kpi-subtext">43.9% of industrial candidates</span>
+                    </div>
+                </div>
+
+                <!-- KPI 3 -->
+                <div class="kpi-card">
+                    <div class="kpi-icon-circle bg-purple-light">
+                        <i class="fa-solid fa-hand-holding-dollar text-purple"></i>
+                    </div>
+                    <div class="kpi-body">
+                        <span class="kpi-title">Peak Projected Labor Savings</span>
+                        <div class="kpi-main-number">72.3%</div>
+                        <span class="kpi-subtext">Polynomial Reg ($R^2$: 0.931)</span>
+                    </div>
+                </div>
+
+                <!-- KPI 4 -->
+                <div class="kpi-card">
+                    <div class="kpi-icon-circle bg-orange-light">
+                        <i class="fa-solid fa-shield-halved text-orange"></i>
+                    </div>
+                    <div class="kpi-body">
+                        <span class="kpi-title">Average Dataset Risk Score</span>
+                        <div class="kpi-main-number">29.3 <span class="kpi-denom">/ 100</span></div>
+                        <span class="kpi-subtext">Across all automation tiers</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- =================================================================
+                 PRIMARY CENTERPIECE: INTERACTIVE ML PREDICTION ENGINE (7 TRAINED MODELS)
+                 ================================================================= -->
+            <section class="prediction-engine-section" id="section-prediction-engine">
+                <div class="section-banner-title">
+                    <div class="banner-title-left">
+                        <i class="fa-solid fa-microchip text-blue icon-large"></i>
+                        <div>
+                            <h3 class="engine-title">Interactive ML Prediction Engine (7 Trained Models)</h3>
+                            <p class="engine-subtitle">Input parameters for your factory to compute simultaneous predictions for <strong>6 Regression targets</strong> ($R^2$ up to 93.1%) and the <strong>Recommended Phase</strong> (SVM Accuracy 92.5%).</p>
+                        </div>
+                    </div>
+
+                    <!-- Quick Archetype Presets -->
+                    <div class="presets-quick-bar">
+                        <span class="preset-label"><i class="fa-solid fa-bolt text-orange"></i> Industry Presets:</span>
+                        <button class="btn-preset active" data-preset="Automotive Assembly (High Vol / Semi-Auto)">Automotive</button>
+                        <button class="btn-preset" data-preset="Electronics PCB (High Variety / Manual)">Electronics</button>
+                        <button class="btn-preset" data-preset="Pharma Sterile Packaging (Strict Quality / Semi-Auto)">Pharma</button>
+                        <button class="btn-preset" data-preset="Food & Beverage Packaging (Continuous Flow)">Food</button>
+                        <button class="btn-preset" data-preset="Textile Weaving Mill (Labor Intensive / Manual)">Textile</button>
+                    </div>
+                </div>
+
+                <div class="engine-card-layout">
+                    <!-- Left: Form Controls (2-Column Grid) -->
+                    <div class="engine-inputs-panel">
+                        <form id="predictionEngineForm">
+                            <div class="form-grid-2">
+                                <div class="form-group">
+                                    <label for="Industry">Industry</label>
+                                    <select id="Industry" class="form-select">
+                                        <option value="Automotive">Automotive</option>
+                                        <option value="Electronics" selected>Electronics</option>
+                                        <option value="Food">Food</option>
+                                        <option value="Pharma">Pharma</option>
+                                        <option value="Textile">Textile</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Product_Lifecycle_Stage">Product Lifecycle</label>
+                                    <select id="Product_Lifecycle_Stage" class="form-select">
+                                        <option value="Introduction">Introduction</option>
+                                        <option value="Growth">Growth</option>
+                                        <option value="Maturity" selected>Maturity</option>
+                                        <option value="Decline">Decline</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-grid-2">
+                                <div class="form-group">
+                                    <label for="Current_Automation_Level">Current Automation</label>
+                                    <select id="Current_Automation_Level" class="form-select">
+                                        <option value="Continue Manual">Continue Manual</option>
+                                        <option value="Semi-Automation" selected>Semi-Automation</option>
+                                        <option value="Flexible Automation">Flexible Automation</option>
+                                        <option value="Full Automation">Full Automation</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="Monthly_Production_Volume">Monthly Volume (Units)</label>
+                                    <input type="number" id="Monthly_Production_Volume" class="form-input" value="12000" min="800" max="35000" step="100">
+                                </div>
+                            </div>
+
+                            <div class="form-grid-2">
+                                <div class="form-group">
+                                    <label for="Labor_Cost_Monthly_USD_k">Monthly Labor Cost ($k)</label>
+                                    <input type="number" id="Labor_Cost_Monthly_USD_k" class="form-input" value="55.0" min="5" max="135" step="1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Machine_Cost_Estimate_USD_k">Machine Cost Estimate ($k)</label>
+                                    <input type="number" id="Machine_Cost_Estimate_USD_k" class="form-input" value="320.0" min="20" max="1000" step="5">
+                                </div>
+                            </div>
+
+                            <div class="form-grid-2">
+                                <div class="form-group">
+                                    <label for="Capital_Available_USD_k">Capital Available ($k)</label>
+                                    <input type="number" id="Capital_Available_USD_k" class="form-input" value="400.0" min="10" max="1200" step="5">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Defect_Rate_Pct">Defect Rate (%)</label>
+                                    <input type="number" id="Defect_Rate_Pct" class="form-input" value="2.5" min="0.1" max="22.0" step="0.1">
+                                </div>
+                            </div>
+
+                            <div class="form-grid-2">
+                                <div class="form-group">
+                                    <label for="Cycle_Time_Min">Cycle Time (Minutes)</label>
+                                    <input type="number" id="Cycle_Time_Min" class="form-input" value="12.0" min="1" max="43" step="0.5">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Machine_Utilization_Pct">Machine Utilization (%)</label>
+                                    <input type="number" id="Machine_Utilization_Pct" class="form-input" value="78.0" min="20" max="99" step="0.5">
+                                </div>
+                            </div>
+
+                            <button type="button" class="btn btn-primary btn-compute" id="btn-run-prediction">
+                                <i class="fa-solid fa-wand-magic-sparkles"></i> Compute ML Predictions
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Right: Prediction Output Showcase (Matching Screenshot Exactly) -->
+                    <div class="engine-output-panel">
+                        
+                        <!-- AI Recommended Strategic Phase Card -->
+                        <div class="phase-hero-box" id="phaseHeroBox">
+                            <span class="phase-hero-badge">AI RECOMMENDED STRATEGIC PHASE:</span>
+                            <h3 class="phase-hero-title" id="phaseHeroTitle">Move to Full Automation</h3>
+                            <div class="phase-hero-sub" id="phaseHeroSub">
+                                <span class="badge-status-tag" id="phaseRiskBadge">Risk Level: Low Risk</span>
+                                <span>Roadmap Readiness</span>
+                            </div>
+                        </div>
+
+                        <!-- 4 Output Result Cards Grid -->
+                        <div class="output-cards-grid">
+                            <!-- Card 1: Labor Cost Savings -->
+                            <div class="res-card">
+                                <span class="res-card-label">Labor Cost Savings</span>
+                                <div class="res-card-value text-green" id="predSavingsVal">+42.3%</div>
+                                <span class="res-card-meta">Polynomial Reg ($R^2$: 0.931)</span>
+                            </div>
+
+                            <!-- Card 2: Productivity Gain -->
+                            <div class="res-card">
+                                <span class="res-card-label">Productivity Gain</span>
+                                <div class="res-card-value text-purple" id="predProdVal">+35.6%</div>
+                                <span class="res-card-meta">Polynomial Reg ($R^2$: 0.873)</span>
+                            </div>
+
+                            <!-- Card 3: Profit Increase -->
+                            <div class="res-card">
+                                <span class="res-card-label">Profit Increase</span>
+                                <div class="res-card-value text-orange" id="predProfitVal">+30.1%</div>
+                                <span class="res-card-meta">Polynomial Reg ($R^2$: 0.807)</span>
+                            </div>
+
+                            <!-- Card 4: Risk Score -->
+                            <div class="res-card">
+                                <span class="res-card-label">Risk Score</span>
+                                <div class="res-card-value text-blue" id="predRiskVal">9.7 / 100</div>
+                                <span class="res-card-meta">Polynomial Reg ($R^2$: 0.655)</span>
+                            </div>
+                        </div>
+
+                        <!-- Secondary Predictions (Timeline & Demand) -->
+                        <div class="secondary-preds-row">
+                            <div class="sec-pred-item">
+                                <i class="fa-regular fa-clock text-blue"></i>
+                                <span>Transition Runway: <strong id="predTimelineVal">34.6 Months</strong></span>
+                            </div>
+                            <div class="sec-pred-item">
+                                <i class="fa-solid fa-arrow-trend-up text-green"></i>
+                                <span>Demand Forecast: <strong id="predDemandVal">+9.1%</strong></span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- =================================================================
+                 REAL DATASET ANALYTICS SECTION (BASED ON 6,000 ACTUAL RECORDS)
+                 ================================================================= -->
+            <section class="middle-dashboard-grid" id="section-dataset-analytics">
+                
+                <!-- 1. Industry Automation Readiness & Recommendations Stacked Bar -->
+                <div class="dash-card readiness-card">
+                    <div class="dash-card-header">
+                        <div>
+                            <h3 class="dash-card-title">Automation Recommendations by Industry Sector</h3>
+                            <span class="dash-card-sub">Actual Distribution across 6,000 Enterprise Records</span>
+                        </div>
+                        <div class="custom-chart-legend">
+                            <span class="legend-item"><span class="legend-box bg-green"></span> Recommended to Migrate</span>
+                            <span class="legend-item"><span class="legend-box bg-slate-light"></span> Retain Current Level</span>
+                        </div>
+                    </div>
+                    <div class="chart-wrapper">
+                        <canvas id="realReadinessBarChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- 2. Actual Dataset Risk Score Distribution (Donut Ring) -->
+                <div class="dash-card risk-dist-card">
+                    <div class="dash-card-header">
+                        <div>
+                            <h3 class="dash-card-title">Dataset Risk Score Distribution</h3>
+                            <span class="dash-card-sub">Computed across all 6,000 Candidates</span>
+                        </div>
+                    </div>
+                    <div class="donut-chart-flex">
+                        <div class="donut-chart-container">
+                            <canvas id="realRiskDonutChart"></canvas>
+                            <div class="donut-center-label">
+                                <span class="d-center-sub">Avg. Risk Score</span>
+                                <strong class="d-center-val">29.3 / 100</strong>
+                            </div>
+                        </div>
+                        <div class="donut-legend-list">
+                            <div class="donut-legend-row">
+                                <span class="donut-dot bg-green"></span>
+                                <span class="donut-label">Low Risk (0–20)</span>
+                                <strong class="donut-pct">31.4%</strong>
+                            </div>
+                            <div class="donut-legend-row">
+                                <span class="donut-dot bg-gold"></span>
+                                <span class="donut-label">Moderate (21–40)</span>
+                                <strong class="donut-pct">51.8%</strong>
+                            </div>
+                            <div class="donut-legend-row">
+                                <span class="donut-dot bg-orange"></span>
+                                <span class="donut-label">High Risk (41–60)</span>
+                                <strong class="donut-pct">14.6%</strong>
+                            </div>
+                            <div class="donut-legend-row">
+                                <span class="donut-dot bg-red"></span>
+                                <span class="donut-label">Critical (> 60)</span>
+                                <strong class="donut-pct">2.2%</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Top Benefits of Automation (Real Dataset Verified Ranges) -->
+                <div class="dash-card benefits-card">
+                    <div class="dash-card-header">
+                        <div>
+                            <h3 class="dash-card-title">Top Benefits of Automation</h3>
+                            <span class="dash-card-sub">Empirical Dataset Metrics</span>
+                        </div>
+                    </div>
+                    <div class="benefits-list">
+                        <!-- Benefit 1 -->
+                        <div class="benefit-item">
+                            <div class="benefit-icon-circle bg-green-light">
+                                <i class="fa-solid fa-sack-dollar text-green"></i>
+                            </div>
+                            <div class="benefit-info">
+                                <div class="benefit-name-row">
+                                    <span class="benefit-name">Labor Cost Savings</span>
+                                    <strong class="benefit-stat text-green">Up to 72.3%</strong>
+                                </div>
+                                <span class="benefit-sub">Mean savings: 21.0% per facility</span>
+                            </div>
+                        </div>
+
+                        <!-- Benefit 2 -->
+                        <div class="benefit-item">
+                            <div class="benefit-icon-circle bg-purple-light">
+                                <i class="fa-solid fa-chart-line text-purple"></i>
+                            </div>
+                            <div class="benefit-info">
+                                <div class="benefit-name-row">
+                                    <span class="benefit-name">Productivity Gain</span>
+                                    <strong class="benefit-stat text-purple">Up to 72.5%</strong>
+                                </div>
+                                <span class="benefit-sub">Higher output & throughput</span>
+                            </div>
+                        </div>
+
+                        <!-- Benefit 3 -->
+                        <div class="benefit-item">
+                            <div class="benefit-icon-circle bg-orange-light">
+                                <i class="fa-solid fa-coins text-orange"></i>
+                            </div>
+                            <div class="benefit-info">
+                                <div class="benefit-name-row">
+                                    <span class="benefit-name">Annual Profit Growth</span>
+                                    <strong class="benefit-stat text-orange">Up to 58.1%</strong>
+                                </div>
+                                <span class="benefit-sub">Expanded EBITDA margin</span>
+                            </div>
+                        </div>
+
+                        <!-- Benefit 4 -->
+                        <div class="benefit-item">
+                            <div class="benefit-icon-circle bg-teal-light">
+                                <i class="fa-solid fa-shield-heart text-teal"></i>
+                            </div>
+                            <div class="benefit-info">
+                                <div class="benefit-name-row">
+                                    <span class="benefit-name">Defect Rate Reduction</span>
+                                    <strong class="benefit-stat text-teal">Down to 0.1%</strong>
+                                </div>
+                                <span class="benefit-sub">Consistent quality assurance</span>
+                            </div>
+                        </div>
+
+                        <!-- Benefit 5 -->
+                        <div class="benefit-item">
+                            <div class="benefit-icon-circle bg-blue-light">
+                                <i class="fa-regular fa-clock text-blue"></i>
+                            </div>
+                            <div class="benefit-info">
+                                <div class="benefit-name-row">
+                                    <span class="benefit-name">Cycle Time Acceleration</span>
+                                    <strong class="benefit-stat text-blue">1.0 – 43.1 Min</strong>
+                                </div>
+                                <span class="benefit-sub">Streamlined takt time</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- =================================================================
+                 FEATURE IMPORTANCE & REAL DATASET SCATTER ANALYSIS
+                 ================================================================= -->
+            <section class="bottom-dashboard-grid" id="section-feature-importance">
+                
+                <!-- 1. Real Feature Importance Chart -->
+                <div class="dash-card feature-importance-card">
+                    <div class="dash-card-header">
+                        <div>
+                            <h3 class="dash-card-title"><i class="fa-solid fa-ranking-star text-blue"></i> Feature Importance: Key Automation Drivers</h3>
+                            <span class="dash-card-sub">Extracted from Trained High-Accuracy ML Estimators</span>
+                        </div>
+                    </div>
+                    <div class="chart-wrapper-tall">
+                        <canvas id="featureImportanceChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- 2. Real Dataset Scatter: Baseline ROI vs. Risk Score -->
+                <div class="dash-card scatter-card">
+                    <div class="dash-card-header">
+                        <div>
+                            <h3 class="dash-card-title"><i class="fa-solid fa-chart-line text-green"></i> Dataset Distribution: Baseline ROI vs. Risk Score</h3>
+                            <span class="dash-card-sub">Sampled from 6,000 Real Enterprise Records</span>
+                        </div>
+                    </div>
+                    <div class="chart-wrapper-tall">
+                        <canvas id="realDatasetScatterChart"></canvas>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- =================================================================
+                 TRAINED MACHINE LEARNING MODELS & BENCHMARKS TABLE
+                 ================================================================= -->
+            <section class="dash-card model-table-section" id="section-model-benchmarks">
+                <div class="dash-card-header">
+                    <div>
+                        <h3 class="dash-card-title"><i class="fa-solid fa-trophy text-gold"></i> Machine Learning Models Deployed & Performance Matrix</h3>
+                        <p class="dash-card-sub">Evaluation across candidate algorithms (Linear Regression, Decision Tree, Polynomial Regression, SVR/SVC, KNN) with Hyperparameter Optimization.</p>
+                    </div>
+                </div>
+                
+                <div class="table-responsive">
+                    <table class="styled-models-table">
+                        <thead>
+                            <tr>
+                                <th>Target Variable</th>
+                                <th>Task Type</th>
+                                <th>Winning ML Model Deployed</th>
+                                <th>Hyperparameter Optimization</th>
+                                <th>Test Score</th>
+                                <th>Candidate Algorithms Compared</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Labor_Cost_Savings_Pct</strong></td>
+                                <td><span class="pill-badge pill-reg">Regression</span></td>
+                                <td><strong>Polynomial Regression (Degree 2)</strong></td>
+                                <td>Polynomial Features + Linear Estimator</td>
+                                <td><strong class="text-green">R² = 0.9307 (93.1%)</strong></td>
+                                <td>Linear Reg, Decision Tree, SVR, KNN, Poly Reg</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Productivity_Improvement_Pct</strong></td>
+                                <td><span class="pill-badge pill-reg">Regression</span></td>
+                                <td><strong>Polynomial Regression (Degree 2)</strong></td>
+                                <td>Polynomial Features + Linear Estimator</td>
+                                <td><strong class="text-green">R² = 0.8726 (87.3%)</strong></td>
+                                <td>Linear Reg, Decision Tree, SVR, KNN, Poly Reg</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Next_Recommended_Phase</strong></td>
+                                <td><span class="pill-badge pill-clf">Classification</span></td>
+                                <td><strong>Support Vector Machine (SVC)</strong></td>
+                                <td>GridSearchCV: <code>C=10.0, kernel='rbf'</code></td>
+                                <td><strong class="text-green">Accuracy = 92.50% (92.5%)</strong></td>
+                                <td>Logistic Reg, KNN, SVM, Naive Bayes, Decision Tree</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Expected_Annual_Profit_Increase_Pct</strong></td>
+                                <td><span class="pill-badge pill-reg">Regression</span></td>
+                                <td><strong>Polynomial Regression (Degree 2)</strong></td>
+                                <td>Polynomial Features + Linear Estimator</td>
+                                <td><strong class="text-green">R² = 0.8073 (80.7%)</strong></td>
+                                <td>Linear Reg, Decision Tree, SVR, KNN, Poly Reg</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Customer_Demand_Forecast_Pct</strong></td>
+                                <td><span class="pill-badge pill-reg">Regression</span></td>
+                                <td><strong>Linear Regression</strong></td>
+                                <td>Standard Scaled Multi-Feature Pipeline</td>
+                                <td><strong class="text-green">R² = 0.7327 (73.3%)</strong></td>
+                                <td>Linear Reg, Decision Tree, SVR, KNN, Poly Reg</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Risk_Score</strong></td>
+                                <td><span class="pill-badge pill-reg">Regression</span></td>
+                                <td><strong>Polynomial Regression (Degree 2)</strong></td>
+                                <td>Polynomial Features + Linear Estimator</td>
+                                <td><strong class="text-green">R² = 0.6546 (65.5%)</strong></td>
+                                <td>Linear Reg, Decision Tree, SVR, KNN, Poly Reg</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Time_to_Next_Migration_Months</strong></td>
+                                <td><span class="pill-badge pill-reg">Regression</span></td>
+                                <td><strong>Polynomial Regression (Degree 2)</strong></td>
+                                <td>Polynomial Features + Linear Estimator</td>
+                                <td><strong class="text-green">R² = 0.5803 (58.0%)</strong></td>
+                                <td>Linear Reg, Decision Tree, SVR, KNN, Poly Reg</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
